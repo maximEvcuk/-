@@ -27,7 +27,7 @@ protected:
 };
 
 template <typename T>
-class CircleInSquare : public Square<T>, public Circle<T> {
+class CircleInSquare : public virtual  Square<T>, public virtual  Circle<T> {
 public: 
 	CircleInSquare(T side_length);
 	void display() const;

@@ -2,12 +2,7 @@
 #define CAR_H
 
 #include<iostream>
-#include"Wheels.h"
-#include"Engine.h"
-#include"Doors.h"
-#include"Lights.h"
-#include"Radio.h"
-#include"GPS.h"
+#include "Vehicle.h"
 
 class Car : public Wheels, public Engine, public Door, public Lights, public Radio, public GPS {
 public:
